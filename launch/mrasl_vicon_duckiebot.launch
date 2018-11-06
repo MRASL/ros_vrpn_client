@@ -1,5 +1,5 @@
 <launch>
-  <arg name="object_name" default="firefly_blue" />
+  <arg name="object_name" default="duckiebot_razor" />
   <node ns="$(arg object_name)" name="vrpn_client" type="ros_vrpn_client" pkg="ros_vrpn_client" output="screen">
     <param name="vrpn_server_ip" value="192.168.1.200"
     <param name="vrpn_coordinate_system" value="vicon" />
